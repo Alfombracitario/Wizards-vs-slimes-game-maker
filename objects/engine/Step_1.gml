@@ -61,11 +61,11 @@
             destroy_tower(selx,sely);
             }
         }
-        if(mouse_check_button_pressed(mb_right) || os_type != os_android || os_type != os_ios)
+        if(mouse_check_button_pressed(mb_right) && (os_type != os_android && os_type != os_ios))
         {
             if(mousey < 6)
             {
-            destroy_tower(mousex,mousey);
+				destroy_tower(mousex,mousey);
             }
         }
 

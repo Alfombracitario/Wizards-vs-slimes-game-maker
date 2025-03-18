@@ -145,7 +145,7 @@
 		draw_sprite(GFX_images,6,512, 384);
 		draw_sprite(GFX_images,5,selectorpos << 6, 384);
 		
-        if(selmode == 0 || os_type != os_android || os_type != os_ios)
+        if((selmode == 0 ) && (os_type != os_android && os_type != os_ios))
         {
 			draw_sprite(GFX_cursor,14,ir1x,ir1y); //mouse
         }
