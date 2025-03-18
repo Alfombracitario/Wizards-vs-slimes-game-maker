@@ -1,0 +1,41 @@
+{
+  "$GMProject":"",
+  "%Name":"Wizards vs slimes game maker",
+  "AudioGroups":[
+    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+  "configs":{
+    "children":[],
+    "name":"Default",
+  },
+  "defaultScriptType":1,
+  "Folders":[],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2024.11.0.179",
+  },
+  "name":"Wizards vs slimes game maker",
+  "resources":[
+    {"id":{"name":"Font","path":"fonts/Font/Font.yy",},},
+    {"id":{"name":"engine","path":"objects/engine/engine.yy",},},
+    {"id":{"name":"Scene","path":"rooms/Scene/Scene.yy",},},
+    {"id":{"name":"GFX_appbg","path":"sprites/GFX_appbg/GFX_appbg.yy",},},
+    {"id":{"name":"GFX_cursor","path":"sprites/GFX_cursor/GFX_cursor.yy",},},
+    {"id":{"name":"GFX_gradient","path":"sprites/GFX_gradient/GFX_gradient.yy",},},
+    {"id":{"name":"GFX_gradient4x","path":"sprites/GFX_gradient4x/GFX_gradient4x.yy",},},
+    {"id":{"name":"GFX_grassbg","path":"sprites/GFX_grassbg/GFX_grassbg.yy",},},
+    {"id":{"name":"GFX_images","path":"sprites/GFX_images/GFX_images.yy",},},
+    {"id":{"name":"GFX_images32","path":"sprites/GFX_images32/GFX_images32.yy",},},
+  ],
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"Scene","path":"rooms/Scene/Scene.yy",},},
+  ],
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":1,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+}
